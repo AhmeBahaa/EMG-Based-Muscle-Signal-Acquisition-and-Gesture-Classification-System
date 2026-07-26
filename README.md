@@ -4,7 +4,7 @@ Electromyography (EMG) is a biomedical technique used to record the electrical a
 <p align="center">
   <img src="Picture2.jpg" alt="EMG Circuit Description" width="48%">
     <img src="Picture1.jpg" alt="EMG Circuit Description" width="48%">
-      <img src="WhatsApp Image 2025-11-22 at 5.40.38 PM.jpg" alt="EMG Circuit Description" width="48%">
+      <img src="WhatsApp Image 2025-11-22 at 5.40.38 PM.jpg" alt="EMG Circuit Description" width="600">
 
 
 </p>
