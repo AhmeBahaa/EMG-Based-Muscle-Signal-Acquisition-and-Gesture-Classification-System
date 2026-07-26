@@ -1,10 +1,8 @@
 # EMG-Based-Muscle-Signal-Acquisition-and-Gesture-Classification-System
 Electromyography (EMG) is a biomedical technique used to record the electrical activity produced by muscles during contraction. These signals are extremely small, typically between 0.1 mV and 5 mV, making them highly susceptible to noise and interference. they require precise amplification, filtering, and digital processing 
 
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4bf4adc4-fecf-4fb3-894e-2f8aaefda2c6" alt="Bionic Arm Prototype 1" width="48%" />
-  <img src="https://github.com/user-attachments/assets/3f609c2c-e592-4168-8b93-bffc2982213a" alt="Bionic Arm Prototype 2" width="48%" />
+  <img src="Picture2.jpg" alt="EMG Circuit Description" width="48%">
 </p>
 
 
