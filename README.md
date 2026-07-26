@@ -2,6 +2,12 @@
 Electromyography (EMG) is a biomedical technique used to record the electrical activity produced by muscles during contraction. These signals are extremely small, typically between 0.1 mV and 5 mV, making them highly susceptible to noise and interference. they require precise amplification, filtering, and digital processing 
 
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4bf4adc4-fecf-4fb3-894e-2f8aaefda2c6" alt="Bionic Arm Prototype 1" width="48%" />
+  <img src="https://github.com/user-attachments/assets/3f609c2c-e592-4168-8b93-bffc2982213a" alt="Bionic Arm Prototype 2" width="48%" />
+</p>
+
+
 # EMG-Based Muscle Signal Acquisition and Gesture Classification System
 
 Electromyography (EMG) is a biomedical technique used to record the electrical activity produced by skeletal muscles during contraction. Because these signals are extremely small (typically between 0.1 mV and 5 mV), they are highly susceptible to noise and interference, requiring precise amplification, analog filtering, and digital processing to extract meaningful features.
@@ -69,13 +75,13 @@ To ensure stable analysis, the system applies two main filters:
 
 **1. Low-Pass Filter (IIR Smoothing)**
 Removes rapid spikes and smooths sawtooth-like noise into a sinusoidal waveform.
-```c
 filtered = (alpha * raw) + ((1 - alpha) * previous);
 
 
 
 **2. Moving Average Filter (MAF)**
 A window size of 10 samples provides reduced momentary fluctuations, a more stable baseline for peak detection, and less jitter in classification.
+---
 
 ##📊 Peak Detection & Gesture Classification
 Peak Detection Algorithm
@@ -110,11 +116,11 @@ This data can be displayed in the Arduino Serial Plotter, streamed over Wi-Fi to
 Biomedical: Prosthetic limb control, muscle rehabilitation, physiotherapy monitoring, stress analysis via muscle tension.
 
 Robotics & Engineering: Gesture-controlled robots, robotic exoskeletons, Human-Machine Interfaces (HMI).
-```---
+---
 ###🏁 Conclusion
 This project demonstrates a complete and practical EMG signal acquisition and interpretation system. By combining a custom hardware front-end, powerful filtering techniques, and a lightweight gesture classifier, the system provides reliable recognition of muscle activity in real-time. With further development (e.g., ML classification or multi-channel expansion), it can be adapted for professional prosthetics, advanced rehabilitation tools, or intelligent wearable devices.
-```---
-##📚 References
+---
+###📚 References
 Electromyography fundamentals – Biomedical Engineering textbooks.
 
 INA128 / AD620 Instrumentation Amplifier datasheets.
@@ -122,4 +128,4 @@ INA128 / AD620 Instrumentation Amplifier datasheets.
 ESP32-C3 Technical Reference Manual.
 
 Research papers on EMG processing and gesture decoding.
-```---
+---
